@@ -5,3 +5,100 @@
   padding: 0;
   font-family: "Inter", sans-serif;
 }
+
+header {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+}
+
+header img {
+  height: 150px;
+}
+
+section {
+  text-align: center;
+  padding: 2rem;
+  background-color: white;
+}
+
+section h1 {
+  font-size: 4rem;
+  margin-bottom: 0.5rem;
+  color: #273212;
+}
+
+section p {
+  font-size: 2rem;
+  color: #273212;
+}
+
+.containerRecettes {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #bfca97;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.recetteGrid {
+  max-width: 1200px;
+  place-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.recette1,
+.recette2,
+.recette3 {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.recette1 img {
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+}
+.recette2 img {
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.recette3 img {
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.recette1 button,
+.recette2 button,
+.recette3 button {
+  padding: 0.5rem 1rem;
+  background-color: #273212;
+  color: #bfca97;
+  border-radius: 5px;
+  margin: 0.5rem;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  height: auto;
+}
+
+footer img {
+  height: 200px;
+}
